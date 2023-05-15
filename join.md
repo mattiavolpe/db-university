@@ -27,7 +27,7 @@ SELECT `courses`.`name`, `courses`.`description`, `courses`.`period`, `courses`.
 FROM `course_teacher`
 JOIN `courses` ON `course_teacher`.`course_id` = `courses`.`id`
 JOIN `teachers` ON `course_teacher`.`teacher_id` = `teachers`.`id`
-WHERE `teachers`.`name` = 'Fulvio' AND `teachers`.`surname` = 'Amato' AND `teachers`.`id` = 44;
+WHERE `teachers`.`name` = 'Fulvio' AND `teachers`.`surname` = 'Amato';
 
 ---
 ### QUERY 4
